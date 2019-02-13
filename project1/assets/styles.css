@@ -56,7 +56,7 @@ body {
     font-size: 60px;
     font-style: normal;
     margin-top: 43px;
-    width: 387px
+    width: 387px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -138,6 +138,16 @@ body {
     display: block;
 }
 
+a {
+    text-decoration: none;
+    color: lightgray;
+}
+
+a:hover {
+    background-color: ghostwhite;
+    /*color: whitesmoke;*/
+    font-weight: 900;
+}
 
 
 #button{
