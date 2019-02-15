@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 /*    border: solid 1px;*/
+    position: relative;
 }
 
 body {
@@ -11,6 +12,13 @@ body {
     color: #FFCCE2;
     margin: 0;
     padding: 0;
+}
+
+.analysis {
+    position: absolute;
+    z-index: 20;
+    top: -42px;
+    left: 140px;
 }
 
 .container {
@@ -150,12 +158,14 @@ a:hover {
 }
 
 
-#button{
+#button {
     width: 60px;
     height: 91px;
     transform: rotate(20deg);
     border-radius: 50%;
     background-color: #FFCCE2;
+    z-index: 99;
+    position: absolute;
 }
 
 
