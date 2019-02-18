@@ -1,12 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="454.326" height="430.248" viewBox="0 0 454.326 430.248">
-  <g id="Group_1" data-name="Group 1" transform="translate(-248.674 -26.752)">
+<svg xmlns="http://www.w3.org/2000/svg" width="241" height="162" viewBox="0 0 241 162">
+  <g id="Group_1" data-name="Group 1" transform="translate(-462 -295)">
     <text id="Retiro_is_a_high-contrast_serif_design_influenced_by_the_Didone_variety._Retiro_is_available_in_five_optical_variants_which_are_each_named_for_the_intended_point_size_they_were_designed_to_be_set._The_biggest_difference_between_each_of_the_variant_point" data-name="Retiro is a “high-contrast serif design” influenced by the Didone variety. Retiro is available in five optical variants, which are each named for the intended point size they were designed to be set. The biggest difference between each of the variant point" transform="translate(483 308)" fill="#ff006c" font-size="12" font-family="RetiroStd-Regular64pt, Retiro Std" letter-spacing="0.03em"><tspan x="0" y="12">Retiro is a “high-contrast serif design” </tspan><tspan x="0" y="27">influenced by the Didone variety. Retiro </tspan><tspan x="0" y="42">is available in five optical variants, </tspan><tspan x="0" y="57">which are each named for the intended </tspan><tspan x="0" y="72">point size they were designed to be set. </tspan><tspan x="0" y="87">The biggest difference between each of </tspan><tspan x="0" y="102">the variant point sizes is the bigger the </tspan><tspan x="0" y="117">variant, the thinner the thin lines get. </tspan></text>
     <g id="Rectangle_4" data-name="Rectangle 4" transform="translate(462 295)" fill="none" stroke="#ffcce2" stroke-width="1">
       <rect width="241" height="150" stroke="none"/>
       <rect x="0.5" y="0.5" width="240" height="149" fill="none"/>
     </g>
-    <line id="Line_8" data-name="Line 8" x2="154" y2="345" transform="translate(250.5 37.5)" fill="none" stroke="#ffcce2" stroke-width="4" stroke-dasharray="7"/>
-    <line id="Line_9" data-name="Line 9" x2="121" y2="300" transform="translate(314.5 27.5)" fill="none" stroke="#ffcce2" stroke-width="4" stroke-dasharray="7"/>
-    <line id="Line_10" data-name="Line 10" x1="139" y2="345" transform="translate(372.5 37.5)" fill="none" stroke="#ffcce2" stroke-width="4" stroke-dasharray="7" opacity="0.998"/>
   </g>
 </svg>

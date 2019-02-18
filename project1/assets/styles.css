@@ -17,8 +17,8 @@ body {
 .analysis {
     position: absolute;
     z-index: 20;
-    top: -42px;
-    left: 140px;
+    top: 218px;
+    left: 387px;
 }
 
 .container {
@@ -160,15 +160,28 @@ a:hover {
 
 
 #button {
-    width: 60px;
-    height: 91px;
     transform: rotate(20deg);
-    border-radius: 50%;
-    background-color: #FFCCE2;
     z-index: 99;
     position: absolute;
     top: 89px;
-    left: 278px;
+    right: 315px;
+    transform: rotate(210 deg);}
+
+.olive {
+    width: 60px;
+    height: 91px;
+    border-radius: 50%;
+    background-color: #FFCCE2;
+    position: absolute;
+}
+
+.stick {
+    height: 258px;
+    width: 3px;
+    background-color: #FFCCE2;
+    position: absolute;
+    left: 30px;
+    top: -140px;
 }
 
 
