@@ -1,0 +1,95 @@
+.container {
+    height: 1543.16px;
+}
+
+h1 {
+    padding-top: 31.01px;
+    text-align: left;
+}
+
+.color-wheel {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 57px;
+    align-items: flex-end;
+}
+
+.colorwheel {
+    display: flex;
+    flex-wrap: wrap;
+    color:deeppink;
+    background-color: aqua;
+}
+
+#image {
+    height:300px;
+    width:300px;
+    margin-left: 137px;
+    margin-right: 20px;
+}
+
+#button {
+    height:43.25px;
+    width: 121.85px;
+}
+
+.info {
+    margin-top: 54px; 
+}
+
+h2 {
+    margin-top: 17px;
+}
+
+.mixing-colors {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 75px;
+}
+
+.picture {
+    height: 117.43px;
+    width: 400.38px;
+    margin-left: 62px;
+    margin-bottom: 20px;
+    color:deeppink;
+    background-color: aqua;
+}
+
+.color {
+    height: 117.43px;
+    width: 127.26;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    color:deeppink;
+    background-color: aqua;
+}
+
+
+.different-page {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    margin-left: 98px;
+}
+
+.link {
+    height: 43.25px;
+    width: 121.85px;
+    color:deeppink;
+    background-color: aqua;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
