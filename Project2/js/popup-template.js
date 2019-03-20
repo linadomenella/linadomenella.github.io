@@ -3,27 +3,27 @@
 // Button to open a modal
 $(document).ready(function (){
     //ID or Class name of the button goes into the first section
-    $('#purplebutton').click(function() {
+    $('#purple').click(function() {
         //ID or Class name of the modal you want to appear on click goes into this second area.
-        $("#purplebutton").css("background-color", "#783a96");
+        $("#purple").css("background-color", "#783a96");
         });
 });
 
 $(document).ready(function (){
-    $('#orangebutton').click(function() {
-        $("#orangebutton").css("background-color", "#fba919")
+    $('#orange').click(function() {
+        $("#orange").css("background-color", "#fba919")
         });
 });
 
 $(document).ready(function (){
-    $('#greenbutton').click(function() {
-        $("#greenbutton").css("background-color", "#0fa64a")
+    $('#green').click(function() {
+        $("#green").css("background-color", "#0fa64a")
         });
 });
 
 $(document).ready(function (){
-    $('#redorangebutton').click(function() {
-        $("#redorangebutton").css("background-color", "#f47b20")
+    $('#redorange').click(function() {
+        $("#redorange").css("background-color", "#f47b20")
         });
 });
 

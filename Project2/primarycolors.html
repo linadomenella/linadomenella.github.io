@@ -6,41 +6,22 @@
     <meta charset="UTF-8">
     
     <title>Primary Colors</title>
-    <link href="assets/styles.css" rel="stylesheet" type="text/css"> 
+    <link href="assets/styles.css" rel="stylesheet" type="text/css">
     <link href="assets/primarystyles.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="https://use.typekit.net/jws7gwj.css">
-    <link href="https://fonts.googleapis.com/css?family=Kosugi" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/dmt6kki.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/popup-template.js"></script>
 </head>
     
     <body>
         <div class="container">
-            <div class="box">
             
-                <h1>Primary Colors</h1>
                 
-                <div class="color-wheel">
-                    <div class="colorwheel" id="image">Picture of Color Wheel</div>
-                    <div class="colorwheel" id="button">Click Me</div>
+                <div class="header">
+                    <h1>THE COLOR WHEEL</h1>
                 </div>
             
-                <div class="info">
-                    <p> all about primary colors</p>
-                    <h2> See what happens when you mix these colors</h2>
-                </div>
-            
-                <div class="mixing-colors">
-                    <div class="picture" id="orange"> Red and Yellow</div>
-                    <div class="color" id="orangebutton"> Orange</div>
-                    <div class="picture" id="green"> Yellow and Blue</div>
-                    <div class="color" id="greenbutton"> Green</div>
-                    <div class="picture" id="purple"> Blue and Red</div>
-                    <div class="color" id="purplebutton"> Purple</div>
-                </div>
-                
-                <p> Congrats! You just made Secondary colors click here to continue onto the next page to learn more about these colors!</p>
-                
+                <div class="box">
                 
                 <div class="different-page">
                     <a href="mainpage.html" class="individual-buttons" >Back to the Main Page</a>
@@ -48,10 +29,46 @@
                     <a href="primarycolors.html"class="individual-buttons" >Go  to the Tertiary Colors</a>
                     <a href="quiz/index.html" class="individual-buttons" >Take the Quiz!</a> 
                 </div> 
+                
+                <div class="color-wheel">
+                    <img src="assets/color-wheel.png" alt="color wheel">
+                    
                 </div>
                 
+                <div class="colorwheel" id="button"></div>
                 
+                <h2>Primary Colors</h2>
+    
+            
+                <div class="info">
+                    <p> The Primary Colors, as seen above in the color wheel connected by the triangle, are red, blue and yellow. These are the Primary Colors because you can not mix any colors to get them, but you can use these colors to mix any other color on the color wheel.</p>
+                    
+                    <h3> See what happens when you mix these colors</h3>
+                </div>
+            
+                <div class="mix">
+                    <div class="mixing-colors" id="red"></div>
+                    <div class="plus">+</div>
+                    <div class="mixing-colors" id="yellow"></div>
+                    <div class="equals">=</div>
+                    <div class="mixing-colors click-me" id="orange">CLICK ME!</div>
+                    <div class="mixing-colors" id="yellow"></div>
+                    <div class="plus">+</div>
+                    <div class="mixing-colors" id="blue"></div>
+                    <div class="equals">=</div>
+                    <div class="mixing-colors" id="green"></div>
+                    <div class="mixing-colors" id="blue"></div>
+                    <div class="plus">+</div>
+                    <div class="mixing-colors" id="red"></div>
+                    <div class="equals">=</div>
+                    <div class="mixing-colors" id="purple"></div>
+                </div>
+                
+                <div class="congrats">
+                <p> <b>CONGRATS!!!</b> You just made the secondary colors, try going to the secondary colors page to learn more or go forward to the tertiary colors page if you are feeling confident. If you are really feeling confident, try taking the quiz! Feel free to also go back to the main page as well.</p>
+                </div>
+              
             </div>
-        </div>
+        </div>  
     </body>
 </html>
