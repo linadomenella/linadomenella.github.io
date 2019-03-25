@@ -104,8 +104,8 @@ h3 {
 
 .mixing-colors {
     margin-top: 57px;
-    height: 84px;
-    width: 121px;
+    margin-left: 3px;
+/*    width: 121px;*/
     border-radius: 25px;
     border-style: solid;
     border-color: #242424;
@@ -163,22 +163,12 @@ h3 {
 }
 
 .click-me {
-    font-size: 27px;
+    font-size: 24px;
     text-align: center;
-    display: absolute;
+    line-height: 1;
+    padding: 20px;
+    width: 77px;
 }
-
-
-/*
-.color {
-    height: 117.43px;
-    width: 127.26;
-    margin-left: 20px;
-    margin-bottom: 20px;
-    color:deeppink;
-    background-color: aqua;
-}
-*/
 
 .link {
     height: 43.25px;
