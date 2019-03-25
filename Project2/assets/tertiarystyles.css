@@ -1,0 +1,15 @@
+.container {
+    height: 1024px;
+}
+
+.box {
+    height: 1024px;
+}
+
+#primarytriangle {
+    width: 74%;
+    left: 14%;
+    top: 6%;
+}
+
+

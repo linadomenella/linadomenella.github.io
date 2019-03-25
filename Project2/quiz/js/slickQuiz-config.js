@@ -4,8 +4,8 @@
 
 var quizJSON = {
     "info": {
-        "name":    "Colors Rule!!!",
-        "main":    "<p>Think you are an expert on colors now?</p>",
+        "name":    "Test Your Knowledge!",
+        "main":    "<p>Think you are an expert on colors now? Take the quiz to find out!</p>",
 //        "results": "<h5>Learn More</h5><p>Etiam scelerisque, nunc ac egestas consequat, odio nibh euismod nulla, eget auctor orci nibh vel nisi. Aliquam erat volutpat. Mauris vel neque sit amet nunc gravida congue sed sit amet purus.</p>",
         // if you get all of them right = level1//
         "level1":  "Jeopardy Ready",
@@ -16,7 +16,7 @@ var quizJSON = {
     },
     "questions": [
         { // Question 1 - Multiple Choice, Single True Answer
-            "q": "Red, Blue and Orange are Primary Colors",
+            "q": "Red, Blue and Orange are Primary Colors.",
             "a": [
                 {"option": "true",      "correct": false},
                 {"option": "false",     "correct": true},
@@ -37,7 +37,7 @@ var quizJSON = {
             "incorrect": "<p><span>Hmmm.</span> Blue-green is actually a Tertiary Color</p>" // no comma here
         },
         { // Question 3 - Multiple Choice, Multiple True Answers, Select All
-            "q": "What colors make green",
+            "q": "What colors make green?",
             "a": [
                 {"option": "Blue and Red",           "correct": false},
                 {"option": "Blue and Yellow",                  "correct": true},

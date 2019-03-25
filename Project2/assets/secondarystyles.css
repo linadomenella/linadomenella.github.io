@@ -1,0 +1,48 @@
+.box {
+    height: 2025px;
+}
+
+#primarytriangle {
+    left: 26%;
+    top: 6%
+}
+
+h4 {
+   color: white;
+}
+
+#orange2 {
+    background-color: #fba919;
+}
+
+#green2 {
+    background-color: #0fa64a;
+}
+
+#violet2 {
+    background-color: #783a96;
+}
+
+#redorange:hover {
+    cursor: pointer;
+}
+
+#yelloworange:hover {
+    cursor: pointer;
+}
+
+#yellowgreen:hover {
+    cursor: pointer;
+}
+
+#bluegreen:hover {
+    cursor: pointer;
+}
+
+#blueviolet:hover {
+    cursor: pointer;
+}
+
+#violetred:hover {
+    cursor: pointer;
+}

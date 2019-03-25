@@ -9,8 +9,6 @@
     <link href="assets/styles.css" rel="stylesheet" type="text/css">
     <link href="assets/primarystyles.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://use.typekit.net/dmt6kki.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/popup-template.js"></script>
 </head>
     
     <body>
@@ -21,27 +19,32 @@
                     <h1>THE COLOR WHEEL</h1>
                 </div>
             
+                <div class="rainbowcircles">
+                    <img src="assets/rainbowcircles.png" alt="rainbow circles">
+                </div>
+            
                 <div class="box">
                 
                 <div class="different-page">
-                    <a href="mainpage.html" class="individual-buttons" >Back to the Main Page</a>
-                    <a href="secondarycolors.html"class="individual-buttons" >Go to the Secondary Colors</a>
-                    <a href="primarycolors.html"class="individual-buttons" >Go  to the Tertiary Colors</a>
-                    <a href="quiz/index.html" class="individual-buttons" >Take the Quiz!</a> 
-                </div> 
+                    <a href="mainpage.html" class="individual-buttons" >BACK TO THE MAIN PAGE</a>
+                    <a href="secondarycolors.html"class="individual-buttons" >SECONDARY COLORS</a>
+                    <a href="tertiarycolors.html"class="individual-buttons" >TERTIARY COLORS</a>
+                    <a href="quiz/index.html" class="individual-buttons" >TAKE THE <br> QUIZ!</a> 
+                </div>
+                
                 
                 <div class="color-wheel">
                     <img src="assets/color-wheel.png" alt="color wheel">
-                    
+                    <img src="assets/primary%20triangle.svg" id="primarytriangle" alt="triangle">
                 </div>
                 
-                <div class="colorwheel" id="button"></div>
+                <div id="colorwheel-button"></div>
                 
-                <h2>Primary Colors</h2>
+                <h2>PRIMARY COLORS</h2>
     
             
                 <div class="info">
-                    <p> The Primary Colors, as seen above in the color wheel connected by the triangle, are red, blue and yellow. These are the Primary Colors because you can not mix any colors to get them, but you can use these colors to mix any other color on the color wheel.</p>
+                    <p> The primary colors, as seen above in the color wheel connected by the triangle, are red, blue and yellow. These are the primary colors because you can not mix any colors to get them, but you can use these colors to mix any other color on the color wheel.</p>
                     
                     <h3> See what happens when you mix these colors</h3>
                 </div>
@@ -50,25 +53,33 @@
                     <div class="mixing-colors" id="red"></div>
                     <div class="plus">+</div>
                     <div class="mixing-colors" id="yellow"></div>
-                    <div class="equals">=</div>
-                    <div class="mixing-colors click-me" id="orange">CLICK ME!</div>
+                    <div class="equals">=</div> 
+                    <div class="mixing-colors click-me" id="orange">  CLICK <br> ME!</div>
                     <div class="mixing-colors" id="yellow"></div>
                     <div class="plus">+</div>
                     <div class="mixing-colors" id="blue"></div>
                     <div class="equals">=</div>
-                    <div class="mixing-colors" id="green"></div>
+                    <div class="mixing-colors click-me" id="green">  CLICK <br> ME!</div>
                     <div class="mixing-colors" id="blue"></div>
                     <div class="plus">+</div>
                     <div class="mixing-colors" id="red"></div>
                     <div class="equals">=</div>
-                    <div class="mixing-colors" id="purple"></div>
+                    <div class="mixing-colors click-me" id="violet">  CLICK <br> ME!</div>
                 </div>
                 
                 <div class="congrats">
-                <p> <b>CONGRATS!!!</b> You just made the secondary colors, try going to the secondary colors page to learn more or go forward to the tertiary colors page if you are feeling confident. If you are really feeling confident, try taking the quiz! Feel free to also go back to the main page as well.</p>
+                <p> <b>CONGRATS!!!</b> You just made the secondary colors, try going to the secondary colors page to learn more or go forward to the tertiary colors page if you are feeling confident. If you are feeling really confident, try taking the quiz! Feel free to also go back to the main page as well.</p>
                 </div>
-              
-            </div>
-        </div>  
+                    
+                <div class="different-page">
+                    <a href="mainpage.html" class="individual-buttons" >BACK TO THE MAIN PAGE</a>
+                    <a href="secondarycolors.html"class="individual-buttons" >SECONDARY COLORS</a>
+                    <a href="tertiarycolors.html"class="individual-buttons" >TERTIARY COLORS</a>
+                    <a href="quiz/index.html" class="individual-buttons" >TAKE THE <br> QUIZ!</a> 
+                </div>
+              </div>
+        </div> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/popup-template.js"></script>
     </body>
 </html>

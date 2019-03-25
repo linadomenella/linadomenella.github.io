@@ -3,9 +3,9 @@
 // Button to open a modal
 $(document).ready(function (){
     //ID or Class name of the button goes into the first section
-    $('#purple').click(function() {
+    $('#violet').click(function() {
         //ID or Class name of the modal you want to appear on click goes into this second area.
-        $("#purple").css("background-color", "#783a96");
+        $("#violet").css("background-color", "#783a96");
         });
 });
 
@@ -28,32 +28,46 @@ $(document).ready(function (){
 });
 
 $(document).ready(function (){
-    $('#yelloworangebutton').click(function() {
-        $("#yelloworangebutton").css("background-color", "#fed304")
+    $('#yelloworange').click(function() {
+        $("#yelloworange").css("background-color", "#fed304")
         });
 });
 
 $(document).ready(function (){
-    $('#yellowgreenbutton').click(function() {
-        $("#yellowgreenbutton").css("background-color", "#abd037")
+    $('#yellowgreen').click(function() {
+        $("#yellowgreen").css("background-color", "#abd037")
         });
 });
 
 $(document).ready(function (){
-    $('#bluegreenbutton').click(function() {
-        $("#bluegreenbutton").css("background-color", "#077aab")
+    $('#bluegreen').click(function() {
+        $("#bluegreen").css("background-color", "#077aab")
         });
 });
 
 $(document).ready(function (){
-    $('#bluevioletbutton').click(function() {
-        $("#bluevioletbutton").css("background-color", "#6e4fa0")
+    $('#blueviolet').click(function() {
+        $("#blueviolet").css("background-color", "#6e4fa0")
         });
 });
 
 $(document).ready(function (){
-    $('#violetredbutton').click(function() {
-        $("#violetredbutton").css("background-color", "#aa2178")
+    $('#violetred').click(function() {
+        $("#violetred").css("background-color", "#aa2178")
+        });
+});
+
+$(document).ready(function (){
+    
+    $('#colorwheel-button').click(function() {
+        $("#primarytriangle").toggleClass("visible");
+        });
+});
+
+$(document).ready(function (){
+    
+    $('#colorwheel-button').click(function() {
+        $("#secondarytriangle").toggleClass("visible");
         });
 });
 

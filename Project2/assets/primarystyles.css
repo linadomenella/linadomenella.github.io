@@ -4,17 +4,16 @@
 
 .box {
     width:599px;
-    height: 1829px;
+    height: 1600px;
     margin: 0 auto;
-    background-color: floralwhite;
 }
 
 
 h2 {
-    padding-top: 43px;
+    padding-top: 52px;
     text-align: left;
     color: #242424;
-    font-size: 
+    font-size: 50px; 
 }
 
 .color-wheel {
@@ -27,12 +26,24 @@ h2 {
     max-height: 371px;
     max-width:  371px;
     margin: 59px auto 0px;
+    position: relative;
 }
 
 .color-wheel img{
     height: 100%;
     width: 100%;
 }
+
+#primarytriangle {
+    position: absolute;
+    width: 50%;
+    left: 25%;
+    top: -5%;
+    visibility: hidden;
+}
+
+.visible {
+    visibility: visible !important;
 }
 
 
@@ -48,15 +59,7 @@ h2 {
     margin-top: 395px;
 }
 
-/*
-#image {
-    height:300px;
-    width:300px;
-    margin-left: 137px;
-    margin-right: 20px;
-}*/
-
-#button {
+#colorwheel-button {
     height:43.25px;
     width: 121.85px;
     display: flex;
@@ -69,10 +72,17 @@ h2 {
     align-items: baseline;
     margin-left: 459px;
     margin-top: -30px;
+    position: relative;
+    z-index: 99;
+}
+
+#colorwheel-button:hover {
+    cursor: pointer;
+    background-color: lightgray;
 }
 
 .info {
-    margin-top: 54px;
+    margin-top: 23px;
     font-size: 17px;
     font-family: roboto, sans-serif;
     font-weight: 500;
@@ -81,7 +91,8 @@ h2 {
 
 
 h3 {
-    margin-top: 17px;
+    margin-top: 33px;
+    font-size: 29px;
 }
 
 .mix {
@@ -108,17 +119,27 @@ h3 {
 #yellow {
     background-color: #F7EB20;
     display: flex;
-/*    flex-wrap: wrap;*/
 }
 
 #blue {
     background-color: #3C57A6;
     display: flex;
-/*    flex-wrap: wrap;*/
 }
 
 #orange {
     display: relative;
+}
+
+#orange:hover {
+    cursor: pointer;
+}
+
+#green:hover {
+    cursor: pointer;
+}
+
+#violet:hover {
+    cursor: pointer;
 }
 
 .plus {
@@ -142,7 +163,7 @@ h3 {
 }
 
 .click-me {
-    font-size: 25px;
+    font-size: 27px;
     text-align: center;
     display: absolute;
 }
@@ -173,6 +194,7 @@ h3 {
     font-weight: 500;
     font-style: normal;
     margin-top: 72px;
+    margin-bottom: 20px;
 }
 
 
