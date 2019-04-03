@@ -102,25 +102,15 @@ li {
 
 
 @media only screen and (min-width:960px) {
-    #name {
-    display: flex;
-}
-
-    .education {
-    display: flex
-}
-
-    .experience {
-    display: flex;
-}
-
-    .skills {
-    display: flex;
-}
-
-    .leadership/service/activities {
-    display: flex;
-}
+    
+    .contactinfo {
+        width: 17.4375em;
+    }
+    
+    .bodyinfo {
+        width: 30.5625em;
+        display: flex;
+    }
     
     header img {
         height: 11.25em;
