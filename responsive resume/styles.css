@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+    font-family: roboto, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#4FC9BE;
+}
+
+.header {
+    background-color: #4FC9BE;
+    color: white;
+    text-align: center;
+    padding-bottom: .05em;
+}
+
+.header img{
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#name {
+    width: 90vw;
+    margin: 0 auto;
+}
+
+.contactinfo {
+    margin-bottom: 1em;
+}
+
+.contactinfo h3{
+    color: #586465;
+    font-size: 1em;
+    margin-bottom: .5em;
+    margin-top: 0em;
+}
+
+.contactinfo p{
+    font-size: .75em;
+}
+
+.bodyinfo {
+}
+
+h1 {
+    font-size: 1.5em;
+    color: #586465;
+    margin-left: 0em;
+    font-weight: 700;
+    margin-top: .25em;
+}
+
+.bodyinfo h1 {
+    color: #586465;
+    line-height: 1;
+}
+
+.bodyinfo h2 {
+    font-size: 1em;
+    margin-left: 5.1875em;
+    font-weight: 700;
+}
+
+h3 {
+    color: #586465;
+    font-size: 1em;
+    margin-bottom: 0.75em;
+    margin-top: .75em;
+    margin-left: 1.2em;
+}
+
+h4 {
+    font-size: .75em;
+    margin-left: 1.2em;
+    margin-top: .5em;
+    font-weight: 900;
+}
+
+h5 {
+    font-size: .75em;
+    margin-left: 1.2em;
+    margin-bottom: .5em;
+}
+
+p {
+    font-size: .75em;
+    margin-left: 1.2em;
+}
+
+li {
+    font-size: .75em;
+    margin-left: 1.2em;
+}
+
+
+
+@media only screen and (min-width:960px) {
+    #name {
+    display: flex;
+}
+
+    .education {
+    display: flex
+}
+
+    .experience {
+    display: flex;
+}
+
+    .skills {
+    display: flex;
+}
+
+    .leadership/service/activities {
+    display: flex;
+}
+    
+    header img {
+        height: 11.25em;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+
+
+
+
+
+
+
