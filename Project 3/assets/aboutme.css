@@ -17,6 +17,10 @@
     width: 40%;
 }
 
+h2 {
+    font-size: .9em;
+}
+
 
 .about-me-info {
     border-style: solid;
@@ -48,6 +52,14 @@
     .about-me-info p {
         font-size: 1.2em;
     }
+    
+    .top-of-page img {
+    width: 30%;
+    }
+    
+    h2 {
+    font-size: 1.1em;
+    }
 
 }
 
@@ -56,6 +68,15 @@
     .top-of-page h1 {
         font-size: 4.4em;
     }
+    
+    .top-of-page img {
+    width: 25%;
+    }
+    
+    h2 {
+    font-size: 1.3em;
+    }
+
     
     .about-me-info {
         border-width: .75em;

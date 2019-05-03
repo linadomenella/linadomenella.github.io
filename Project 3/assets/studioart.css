@@ -13,13 +13,15 @@
     margin: 0 auto;
     width: 100%;
     height: 100%;
-    margin-bottom: 3em;
+/*    margin-bottom: 3em;*/
     justify-content: space-between;
     flex-direction: column;
+/*    background-color: aqua;*/
 }
 
 .studio-art img {
-    width: 100%
+    width: 100%;
+/*    background-color: aquamarine;*/
 }
 
 .studio-art p {
@@ -29,6 +31,7 @@
     padding-top: .5em;
     padding-bottom: 1em;
     color: #6C6C6C;
+/*    background-color: blueviolet;*/
 }
 
 .description p{
@@ -70,23 +73,21 @@
         margin-top: auto;
         margin-bottom: auto;
         width: 100%;
-/*        padding-right: 5%;*/
     }
     
     
 }
 
 @media only screen and (min-width:960px) {
-    
-    .intro p{
-        font-size: 3em;
+    main {
+        height: 90%;
+    }
+
+    .empty-space {
+        height: 2em;
     }
     
-    .description p{
-        font-size: 1.5em;
-    }
-    
-    
+
     
     
 }

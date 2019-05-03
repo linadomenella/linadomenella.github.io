@@ -1,0 +1,63 @@
+.pink {
+    background-color: #ED0873;
+}
+
+.orange {
+    background-color: #FEBC42;
+}
+
+.lime-green {
+    background-color: #E2EF01;
+}
+
+.green {
+    background-color: #58B832;
+}
+
+.blue {
+    background-color: #0075E6;
+}
+
+.black {
+    background-color: #000000;
+}
+
+.white {
+    background-color: #FFFFFF;
+    border-style: solid;
+    border-color: #E0E0E0;
+}
+
+.last-page {
+/*    margin-left: -20%; */
+}
+
+@media only screen and (min-width: 660px) {
+    
+
+    .mood-board-images div {
+        width: 50%;
+    }
+    
+    .last-page {
+        padding-left: -20%;
+    }
+    
+    .digital-sketches .images {
+     height: 0%; 
+     width: 60%; 
+/*    margin: 0 auto;*/
+     padding-left: 0%; 
+    }
+    
+    .artwork div {
+        width: 49%;
+    }
+    
+    .digital-sketches p {
+        padding-left: 20%;
+        
+        
+    }
+    
+}
