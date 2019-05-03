@@ -1,0 +1,403 @@
+.header h1 {
+    padding-top: .2em;
+    font-weight: 700;
+    font-size: 2.7em;
+    padding-bottom: .5em;
+}
+
+.intro p {
+    background-color: #70707013;
+    font-size: 1em;
+    padding: 1em 2em;
+    margin-bottom: 3.4375em;
+}
+
+.artwork {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    height: auto;
+    margin-bottom: 3em;
+}
+
+.artwork img {
+    width: 100%;
+}
+/*
+
+.indented-info {
+    width: 60%;
+    padding-left: 20%;
+}
+*/
+
+h2 {
+    font-family: din-condensed, sans-serif;
+    font-weight: 400;
+    font-size: 1.3em;
+    padding-left: 20%;
+    padding-bottom: .2em;
+}
+
+hr {
+    border-width: thin;
+    border-color: black;
+    width: 6%;
+    margin-left: 20%;
+    margin-bottom: 1.5em;
+}
+
+.typography {
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+    background-color: #70707013;
+    margin-bottom: 3em;
+}
+
+.typography h5 {
+    font-family: din-condensed, sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    padding-left: 1.2em;
+    padding-top: 1.6em;
+    padding-bottom: 1em;
+    color: #6C6C6C;
+}
+
+.typography h2 {
+    font-family: futura-pt-bold, sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    padding-left: 1.2em;
+    padding-right: 1.2em;
+    color: black;
+    line-height: 1.5em;
+    padding-bottom: 2em;
+}
+
+.typography h3 {
+    font-family: futura-pt, sans-serif;
+    font-weight: 600;
+    font-size: 1em;
+    padding-left: 1.2em;
+    padding-right: 1.2em;
+    color: black;
+    line-height: 1.5em;
+    padding-bottom: 2em;
+}
+
+.typography h4 {
+    font-family: futura-pt, sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 1em;
+    padding-left: 1.2em;
+    padding-right: 1.2em;
+    color: black;
+    line-height: 1.5em;
+    padding-bottom: 2em;
+}
+
+.colors {
+    display: flex;
+    margin: 0 auto;
+    width: 40%;
+    margin-bottom: 3em;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.colors .circle {
+    height: 3.875em;
+    width: 3.875em;
+    box-sizing: border-box;
+    border-radius: 80%;
+    margin: 0 auto;
+}
+
+.circle-content {
+    margin-bottom: 1em;
+}
+
+.red {
+    background-color: #085560;
+}
+
+.blue {
+    background-color: #2F92A0;
+}
+
+.green {
+    background-color: #73CAC6;
+}
+
+.purple {
+    background-color: #FFFFFF;
+    border-style: solid;
+    border-color: #E0E0E0;
+}
+
+.colors p {
+    text-align: center;
+    font-size: .8em;
+/*    margin-left: 12.9375em;*/
+}
+
+
+.sketches {
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+    margin-bottom: 3em;
+}
+
+.sketches img {
+    height: 100%;
+    width: 100%;
+}
+
+.digital-sketches .images{
+    width: 60%;
+/*    height: 80%;*/
+    padding-bottom: 1em;
+    margin: 0 auto;
+}
+
+.images img {
+    height: 100%;
+    width: 100%;
+}
+
+
+.digital-sketches p {
+    font-size: 1em;
+    margin: 0 auto;
+    width: 60%;
+    padding-bottom: 2em;
+}
+
+
+
+@media only screen and (min-width:660px) {
+    
+    .header {
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+    }
+    
+    .header h1 {
+        font-size: 4.5em;
+    }
+    
+    .intro p {
+        font-size: 1.3em;
+        padding: 1em 3.25em;
+        margin-bottom: 3.4375em;
+    }
+    
+    .artwork {
+        margin-bottom: 5em;
+    }
+    
+    hr {
+        border-width: .1em;
+        width: 4%;
+    }
+    
+    h2 {
+        font-size: 1.7em;
+/*        padding-bottom: .2em;*/
+    }
+ 
+    .typography h5 {
+        font-size: 1.7em;
+    }
+    
+    .typography {
+        margin-bottom: 5em;
+    }
+    
+    .sketches {
+        margin-bottom: 5em;
+    }
+    
+    .digital-sketches {
+        display: flex;
+        margin-bottom: 1em;
+        
+    }
+    
+    
+    .digital-sketches p {
+        padding-left: 2.125em;
+        padding-right: 20%;
+        font-size: 1em;
+}
+
+    .image-and-text {
+        display: flex;
+        
+    }
+
+    .digital-sketches .images {
+        height: 80%;
+        width: 55%;
+        margin: 0 auto;
+        padding-left: 20%;
+ 
+    }
+    
+    .typography h2 {
+        font-size: 1.25em;
+        line-height: 2em;
+        padding-bottom: .8em;
+        padding-left: 1.7em;
+        padding-right: 1.7em;
+    }
+
+    .typography h3 {
+        font-size: 1.25em;
+        line-height: 2em;
+        padding-bottom: .8em;
+        padding-left: 1.7em;
+        padding-right: 1.7em;
+    }
+
+    .typography h4 {
+        font-size: 1.25em;
+        line-height: 2em;
+        padding-bottom: .8em;
+        padding-left: 1.7em;
+        padding-right: 1.7em;
+    }
+    
+    .colors {
+        margin-bottom: 5em;
+    }
+    
+    .colors {
+        width: 60%;
+        margin-bottom: 3em;
+    }
+
+    .colors .circle {
+        height: 5.5em;
+        width: 5.5em;
+    }
+    
+    .colors p {
+        font-size: 1.2em;
+        margin-top: 1.3em; 
+    }
+    
+}
+
+
+@media only screen and (min-width:960px) {
+    
+    .header {
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+    }
+    
+    .header h1 {
+        font-size: 7em;
+    }
+    
+    .intro p {
+        font-size: 1.6em;
+        padding: 1em 1.5em;
+        margin-bottom: 2.4375em;
+    }
+    
+    .artwork {
+        margin-bottom: 6em;
+    }
+    
+    hr {
+/*        border-width: .15em;*/
+        width: 4%;
+    }
+
+    h2 {
+        font-size: 2em;
+/*        padding-bottom: 2em;*/
+    }
+
+    .typography h5 {
+        font-size: 2.5em;
+        padding-left: .85em;
+    }
+    
+    .typography {
+        margin-bottom: 6em;
+    }
+    
+    .colors {
+        width: 60%;
+        margin-bottom: 6em;
+    }
+
+    .colors .circle {
+        height: 6.5em;
+        width: 6.5em;
+    }
+    
+    .colors p {
+        font-size: 1.5em;
+        margin-top: 1.3em; 
+    }
+    
+    .sketches {
+        margin-bottom: 6em;
+    }
+    
+    .digital-sketches {
+        margin-bottom: 6em;
+    }
+
+    .digital-sketches p {
+        font-size: 1.5em;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,68 @@
+.container {
+    background-color: #FFA7A7;
+}
+
+.top-of-page {
+    padding-top: 6em;
+    text-align: center;
+}
+
+.top-of-page h1 {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 2.7em;
+}
+
+.top-of-page img {
+    width: 40%;
+}
+
+
+.about-me-info {
+    border-style: solid;
+    border-color: white;
+    border-width: .1875em;
+    width: 85%;
+    margin: 0 auto;
+    margin-bottom: 2em;
+}
+
+
+.about-me-info p {
+    font-size: 1em;
+    font-weight: 400;
+    margin: 1.2em 1.2em;
+
+}
+
+@media only screen and (min-width:660px) {    
+    
+    .top-of-page h1 {
+        font-size: 3.7em;
+    }
+    
+    .about-me-info {
+        border-width: .3125em;
+    }
+    
+    .about-me-info p {
+        font-size: 1.2em;
+    }
+
+}
+
+@media only screen and (min-width:960px) {    
+    
+    .top-of-page h1 {
+        font-size: 4.4em;
+    }
+    
+    .about-me-info {
+        border-width: .75em;
+    }
+    
+    .about-me-info p {
+        font-size: 1.4em;
+    }
+
+}

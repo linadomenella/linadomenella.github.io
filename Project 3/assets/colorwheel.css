@@ -1,0 +1,147 @@
+.screen-capture {
+    width: 100%;
+    display: block;
+    flex-direction: column;
+}
+
+.typography h2 {
+    font-family: roboto, sans-serif;
+    font-weight: 900;
+/*    font-style: normal;*/
+}
+
+.typography h3 {
+    font-family: roboto, sans-serif;
+    font-weight: 700;
+}
+
+.typography h4 {
+    font-family: roboto, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.red {
+    background-color: #ED4237;
+}
+
+.red-orange {
+    background-color: #F37F32;
+}
+
+.orange {
+    background-color: #FAAA30;
+}
+
+.orange-yellow {
+    background-color: #FDD328;
+}
+
+.yellow {
+    background-color: #F5EA34;
+}
+
+.yellow-green {
+    background-color: #ABCF44;
+}
+
+.green {
+    background-color: #2AA853;
+}
+
+.green-blue {
+    background-color: #277DAB;
+}
+
+.blue {
+    background-color: #4860AA;
+}
+
+.blue-purple {
+    background-color: #7458A4;
+}
+
+.violet {
+    background-color: #7C4799;
+}
+
+.purple-red {
+    background-color: #AC357D;
+}
+
+.black {
+    background-color: #000000;
+}
+
+.white {
+    background-color: #FFFFFF;
+    border-style: solid;
+    border-color: #E0E0E0;
+}
+
+.moodboards {
+    background-color: white;
+    justify-content: space-between;
+}
+
+.mood-board-images div {
+    width: 100%;
+}
+
+.style-tile {
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+    background-color: #70707013;
+    margin-bottom: 3em; 
+}
+
+.style-tile-images {
+    flex-direction: column;
+    display: flex;
+}
+
+.style-tile img {
+    width: 90%;
+    padding: 5% 5%; 
+}
+
+
+@media only screen and (min-width:660px) {
+
+    .artwork div {
+        width: 100%;
+    }
+    
+    .screen-capture {
+        width: 90%;
+        height: auto;
+        align-items: center;
+        margin: 0 auto;
+    }
+    
+    .digital-sketches {
+        flex-wrap:nowrap;
+    }
+    
+    .digital-sketches p{
+        padding-left: .5em;
+        padding-top: 0em;
+    }
+        
+    .images img {
+       width: 100% 
+    }
+    
+    .mood-board-images div {
+        width: 50%;
+    }
+    
+}
+
+@media only screen and (min-width:960px) {
+    .screen-capture {
+        width: 60%;
+    }
+}
+

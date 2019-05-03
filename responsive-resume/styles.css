@@ -3,8 +3,6 @@
     padding: 0;
 }
 
-
-
 body {
     font-family: roboto, sans-serif;
     font-weight: 400;
@@ -12,6 +10,7 @@ body {
     color:#4FC9BE;
     width: 100%;
     margin: 0 auto;
+    background-color:#D4F2EF;
 }
 
 .header {
@@ -49,13 +48,15 @@ body {
 }
 
 .bodyinfo {
+    background-color: white;
+    padding-bottom: 2em;
 }
 
 h1 {
     font-size: 1.5em;
     color: #586465;
     font-weight: 700;
-    margin-top: .25em;
+    padding-top: .25em;
     text-align: center;
 }
 
@@ -70,8 +71,6 @@ h1 {
     font-weight: 700;
     text-align: center;
 }
-
-
 
 h3 {
     color: #586465;
@@ -108,11 +107,11 @@ li {
     margin-bottom: .15em;
 }
 
+
 @media only screen and (min-width:660px) {
     
     body {
         display: flex;
-        width: 90%;
         margin: 0 auto;
     }
     
@@ -125,10 +124,6 @@ li {
         font-size: 2.4em;
         margin-left: .25em;
         text-align: left;
-    }
-    
-    .bodyinfo {
-        margin-left: .7em;
     }
     
     .bodyinfo h2 {
@@ -154,6 +149,7 @@ li {
     
     .bodyinfo {
         width: inherit;
+        padding-left: .5em;
     }
     
     header img {
@@ -162,6 +158,7 @@ li {
         padding: 0;
     }
 }
+
 
 
 @media only screen and (min-width:960px) {
@@ -184,7 +181,7 @@ li {
     }
     
     .bodyinfo {
-        margin-left: .7em;
+        padding-left: .7em;
     }
     
     .bodyinfo h2 {

@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    font-family: din-2014, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    padding-bottom: 2em;
+}
+
+main a {
+    text-decoration: none;
+    color: #000;
+    transition: background-color .3s ease-in-out;
+    -moz-transition: background-color .3s ease-in-out;
+    -webkit-transition: background-color .3s ease-in-out;
+}
+
+main a:hover {
+    background-color: white;
+}
+
+.mainmenu {
+    flex-wrap: wrap;
+    text-align: right;
+    padding-right: 1em;
+    padding-bottom: 1.5em;
+}
+
+.menu {
+    font-size: .7em;
+    font-weight: 400;
+}
+
+.header {
+    text-align: center;
+    padding-top: 4em;
+}
+
+.header h2 {
+    font-weight: 400;
+    margin-bottom: 1.5em;
+}
+
+.individual-buttons {
+    display: block;
+    color: #242424;
+    text-decoration: none;
+}
+
+.individual-buttons h2 {
+    text-align: center;
+    padding-top: .7em;
+    padding-bottom: .7em;
+    font-size: 1.2em;
+}
+
+
+.image {
+    height: auto;
+    width: 95%;
+    align-items: center;
+    margin: 0 auto;
+    font-size: 1em;
+    text-align: center; 
+}
+
+.image h2 {
+    margin-top: .8em;
+}
+
+.image img {
+/*    height: 100%;*/
+    width: 100%;
+}
+
+
+nav {
+    text-align: center;
+    width: 100%;
+}
+
+.nav-bar {
+    overflow: hidden;
+    background-color: white;
+    border-top: .25rem solid black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.topnav {
+    overflow: hidden;
+    position: relative;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: .875rem 1rem;
+    text-decoration: none;
+    font-size: .95rem;
+}
+
+.topnav a.icon {
+    color: black;
+    float: right;
+    display: block;
+    font-size: 1.25rem;
+}
+
+.topnav a:hover {
+    background-color: black;
+    color: white;
+}
+
+.topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.topnav.responsive a {
+    float: none;
+    display: block;
+}
+
+.main-nav a {
+    display: none;
+}
+
+@media only screen and (min-width:660px) {
+
+    
+    .header {
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+    }
+    
+    .header h1 {
+        font-size: 3.75em;
+        margin-top: .7em;
+        margin-bottom: .1em;
+    }
+    
+    .header h2 {
+        font-size: 2.5em;
+        margin-bottom: .5em;
+    }
+    
+    .individual-buttons {
+        width: 33%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 1em;
+    }
+    
+    .individual-buttons h2 {
+        font-size: 1em;
+        margin: 0 auto
+    }
+    
+    .image h2 {
+        margin-top: 0;
+    }
+    
+    .projects {
+        display: flex;
+        flex-wrap: wrap;
+        width: 99%;
+        margin: 0 auto;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    
+    .project h2 {
+        margin: 1em; 
+    }
+  
+    .main-nav {
+        display: flex;
+        margin-right: 30px;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    .topnav a.icon {
+        display: none;
+    }
+
+    .topnav.responsive .icon {
+        display: none;
+    }
+
+    .main-nav a {
+        display: flex;
+    }
+}
+
+
+
+@media only screen and (min-width:960px) {
+    
+    .header {
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+    }
+    
+    .header h1 {
+        font-size: 5.125em;
+        margin-top: .7em;
+        margin-bottom: .1em;
+    }
+    
+    .header h2 {
+        font-size: 3em;
+        margin-bottom: 1em;
+    }
+    
+    .projects {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .individual-buttons {
+        margin-top: 1em;
+    }
+    
+    .individual-buttons h2 {
+        font-size: 1em;
+        text-align: center;
+    }
+    
+    main {
+        width: 100%;
+        margin: 0 auto;
+        height:100vh;
+        overflow:auto;
+    }
+    
+    /*8888888888888888888888888*8*/
+    /*88888 Top NavBar Two 88888*/
+    /*888888888888888888888888**/
+
+    nav {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .main-nav {
+        margin-right: 0px;
+    }
+
+    .main-nav a {
+        font-size: .95rem;
+    }
+ 
+}
+
+
+

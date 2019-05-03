@@ -1,0 +1,284 @@
+.header h1 {
+    padding-top: .2em;
+    font-weight: 700;
+    font-size: 2.7em;
+    padding-bottom: .5em;
+}
+
+.intro p {
+    background-color: #70707013;
+    font-size: 1em;
+    padding: 1em 2em;
+    margin-bottom: 3.4375em;
+}
+
+.artwork {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    height: 36em;
+    background-color: aquamarine;
+    margin-bottom: 3em;
+}
+
+h2 {
+    font-family: din-condensed, sans-serif;
+    font-weight: 400;
+    font-size: 1.3em;
+    padding-left: 20%;
+    padding-bottom: 1.5em;
+}
+
+.typography {
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+    background-color: #70707013;
+    margin-bottom: 3em;
+}
+
+.typography h5 {
+    font-family: din-condensed, sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    padding-left: 1.2em;
+    padding-top: 1.6em;
+    color: #6C6C6C;
+}
+
+
+.colors {
+    display: flex;
+    margin-left: 12.94em;
+    margin-bottom: 3em;
+}
+
+.colors .circle {
+    height: 5em;
+    width: 5em;
+    border-radius: 80%;
+}
+
+.circle-content {
+    margin-right: 2em;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.colors p {
+    text-align: center;
+/*    margin-left: 12.9375em;*/
+}
+
+
+.sketches {
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+    height: 36em;
+    background-color: #70707013;
+    margin-bottom: 3em;
+}
+
+.digital-sketches {
+/*    width: 45%;*/
+    height: 36em;
+    background-color: #70707013;
+    margin-bottom: 3em;
+    
+}
+
+.digital-sketches p {
+    padding-left: 20%;
+    font-size: 1em;
+    margin-bottom: 3em;
+}
+
+
+.digital-sketches .images {
+    height: 80%;
+    background-color: aquamarine;
+    width: 134%;
+    margin-left: 20%;
+ 
+}
+
+
+@media only screen and (min-width:660px) {
+    
+    body {
+        display: flex;
+        margin: 0 auto;
+    }
+    
+    .header {
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+    }
+    
+    .header h1 {
+        font-size: 4.5em;
+    }
+    
+    .intro p {
+        font-size: 1.3em;
+        padding: 1em 3.25em;
+        margin-bottom: 3.4375em;
+    }
+    
+    .artwork {
+        margin-bottom: 5em;
+    }
+    
+    h2 {
+        font-size: 1.7em;
+        padding-bottom: 1.8em;
+    }
+ 
+    .typography h5 {
+        font-size: 1.7em;
+    }
+    
+    .typography {
+        margin-bottom: 5em;
+    }
+    
+    .colors {
+        margin-left: 12.94em;
+        margin-bottom: 5em;
+    }
+    
+    .sketches {
+        margin-bottom: 5em;
+    }
+    
+    .digital-sketches {
+        display: flex;
+/*    width: 45%;*/
+        margin-bottom: 5em;
+    }
+    
+    .digital-sketches p {
+        text-align: left;
+        padding-left: 2.125em;
+        margin-right: 12.9375em;
+        font-size: 1em;
+        margin-bottom: 3em;
+}
+
+
+    .digital-sketches .images {
+        height: 80%;
+        background-color: aquamarine;
+        width: 134%;
+        margin-left: 12.9375em;
+ 
+    }
+}
+
+
+@media only screen and (min-width:960px) {
+    body {
+        display: flex;
+        margin: 0 auto;
+    }
+    
+    .header {
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+    }
+    
+    .header h1 {
+        font-size: 7em;
+    }
+    
+    .intro p {
+        font-size: 1.6em;
+        padding: 1em 1.5em;
+        margin-bottom: 2.4375em;
+    }
+    
+    .artwork {
+        margin-bottom: 6em;
+    }
+
+    h2 {
+        font-size: 2em;
+        padding-bottom: 2em;
+    }
+
+    .typography h5 {
+        font-size: 2.5em;
+    }
+    
+    .typography {
+        margin-bottom: 6em;
+    }
+    
+    .colors {
+        margin-left: 12.94em;
+        margin-bottom: 6em;
+    }
+
+    .sketches {
+        margin-bottom: 6em;
+    }
+    
+    .digital-sketches {
+        margin-bottom: 6em;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

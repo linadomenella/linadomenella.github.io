@@ -1,0 +1,96 @@
+.intro p{
+    
+    font-family: din-condensed, sans-serif;
+    font-weight: 400;
+    font-size: 1.7em;
+    padding: 1em .9em;
+    margin-bottom: 1.4375em;
+    text-align: center;
+}
+
+.studio-art {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 3em;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.studio-art img {
+    width: 100%
+}
+
+.studio-art p {
+    font-size: .9em;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: .5em;
+    padding-bottom: 1em;
+    color: #6C6C6C;
+}
+
+.description p{
+    font-size: 1em;
+    margin: 0 auto;
+    width: 60%;
+    padding-bottom: 3em;
+}
+
+.drawing {
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+    height: 100%;
+    margin-bottom: 2em;
+}
+
+@media only screen and (min-width:660px) {
+    
+    .intro p{
+        font-size: 2em;
+    }
+    
+    .studio-art div {
+        width: 48%;
+    }
+    
+    .studio-art {
+        justify-content: space-between;
+        margin: 0 auto;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 70%;
+        padding-bottom:2em;
+        display: flex;
+    }
+    
+    .studio-art img {
+        margin-top: auto;
+        margin-bottom: auto;
+        width: 100%;
+/*        padding-right: 5%;*/
+    }
+    
+    
+}
+
+@media only screen and (min-width:960px) {
+    
+    .intro p{
+        font-size: 3em;
+    }
+    
+    .description p{
+        font-size: 1.5em;
+    }
+    
+    
+    
+    
+}
+
+
+
+
