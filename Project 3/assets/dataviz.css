@@ -1,0 +1,13 @@
+.artwork img {
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.iamdata img {
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
